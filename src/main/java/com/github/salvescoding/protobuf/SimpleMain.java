@@ -16,12 +16,12 @@ public class SimpleMain {
 
         // simple fields
         SimpleMessage.Builder builder = SimpleMessage.newBuilder()
-                                        .setId(23)
+                                        .setId(92)
                                         .setIsSimple(true)
-                                        .setName("Salves");
+                                        .setName("VDK");
 
         // repeated fields
-        builder.addAllSampleList(List.of(2,45,2,464));
+        builder.addAllSampleList(List.of(2,23, 24, 9));
 
 
         System.out.println("Printing the builder of SimpleMessage" + builder.toString());
